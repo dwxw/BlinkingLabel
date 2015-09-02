@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BlickingLabel_Example', :exclusive => true do
+  pod "BlickingLabel", :path => "../"
+end
+
+target 'BlickingLabel_Tests', :exclusive => true do
+  pod "BlickingLabel", :path => "../"
+
+  pod 'Kiwi'
+end
