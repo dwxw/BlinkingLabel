@@ -10,6 +10,8 @@
 
 @interface DDAViewController ()
 
+@property (nonatomic, assign) BOOL isBlinking;
+
 @end
 
 @implementation DDAViewController
@@ -17,13 +19,27 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    // Setup the BlinkingLabel
+    [_blinkingLabel startBlinking];
+    _isBlinking = YES;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)toggleButton:(id)sender {
+    if (_isBlinking) {
+        [_blinkingLabel stopBlinking];
+        _isBlinking = NO;
+    }
+    else {
+        [_blinkingLabel startBlinking];
+        _isBlinking = YES;
+    }
 }
 
 @end

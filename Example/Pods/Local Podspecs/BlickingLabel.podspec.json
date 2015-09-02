@@ -1,9 +1,9 @@
 {
   "name": "BlickingLabel",
   "version": "0.1.0",
-  "summary": "A short description of BlickingLabel.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/BlickingLabel",
+  "summary": "A subclass on UILabel that provides a blink.",
+  "description": "This CocoaPod provides the ability to use a UILabel that maybe started and stopped blinking.",
+  "homepage": "https://github.com/dwxw/BlinkingLabel",
   "license": "MIT",
   "authors": {
     "David White": "david.white@gamesanalytics.com"

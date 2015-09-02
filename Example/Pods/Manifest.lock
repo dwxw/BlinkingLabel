@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BlickingLabel: 88bc8922fd5017c6217c27c74aada252da0b3f2d
+  BlickingLabel: ce2e37af9e9dc3dcd870e071cd272bf3f7826c5e
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
 
 COCOAPODS: 0.38.2

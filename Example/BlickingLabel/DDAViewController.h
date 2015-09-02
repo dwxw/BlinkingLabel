@@ -7,7 +7,12 @@
 //
 
 @import UIKit;
+@import BlickingLabel;
 
 @interface DDAViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet BlinkingLabel *blinkingLabel;
+
+- (IBAction)toggleButton:(id)sender;
 
 @end
