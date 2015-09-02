@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
                         This CocoaPod provides the ability to use a UILabel that maybe started and stopped blinking.
                        DESC
 
-  s.homepage         = "https://github.com/dwxw/BlickingLabel"
+  s.homepage         = "https://github.com/dwxw/BlinkingLabel"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "David White" => "david.white@gamesanalytics.com" }
