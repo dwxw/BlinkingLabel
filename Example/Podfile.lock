@@ -1,0 +1,17 @@
+PODS:
+  - BlickingLabel (0.1.0)
+  - Kiwi (2.4.0)
+
+DEPENDENCIES:
+  - BlickingLabel (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  BlickingLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BlickingLabel: 88bc8922fd5017c6217c27c74aada252da0b3f2d
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+
+COCOAPODS: 0.38.2

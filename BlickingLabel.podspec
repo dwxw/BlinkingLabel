@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "BlickingLabel"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BlickingLabel."
+  s.summary          = "A subclass on UILabel that provides a blink."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,10 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        This CocoaPod provides the ability to use a UILabel that maybe started and stopped blinking.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BlickingLabel"
+  s.homepage         = "https://github.com/dwxw/BlickingLabel"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "David White" => "david.white@gamesanalytics.com" }
